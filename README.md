@@ -1,8 +1,8 @@
-# 🎵 VibeFlow
-
+<h1  align="center">
+🎵 VibeFlow
+</h1>
 A sleek, modern music player built with React and TailwindCSS. VibeFlow offers a beautiful, responsive interface for playing your favorite local music tracks with style.
 
-![VibeFlow Screenshot](public/download.jpg)
 
 ## ✨ Features
 
@@ -105,7 +105,7 @@ Full-featured music player with expanded controls and library view.
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+© 2025 Haseeb Javed. All rights reserved.
 
 ## 👨‍💻 Author
 
@@ -120,4 +120,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ and React
+Made with ❤️ 
