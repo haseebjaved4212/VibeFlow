@@ -20,7 +20,7 @@ export default function PlayerControls({
     <div>
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-lg font-semibold text-white truncate">
+          <h2 className="text-lg font-semibold text-black truncate">
             {current.title}
           </h2>
           <p className="text-sm text-gray-300 truncate">{current.artist}</p>

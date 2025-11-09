@@ -4,11 +4,18 @@ export default function useAudioPlayer() {
   const audioRef = useRef(new Audio());
   const [songs, setSongs] = useState([
     {
-      id: "demo",
-      title: "Demo Track",
-      artist: "VibeFlow",
-      src: "",
-      cover: "/default-cover.svg",
+      id: "1",
+      title: "Legends Never Die",
+      artist: "  By Against The Current",
+      src: "./public/Songs/MySong.mp3",
+      cover: "./public/Cover.jpg",
+    },
+    {
+      id: "1",
+      title: "Legends Never Die",
+      artist: "  By Against The Current",
+      src: "./public/Songs/MySong2.mp3",
+      cover: "./public/Cover.jpg",
     },
   ]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -51,7 +58,7 @@ export default function useAudioPlayer() {
         title: file.name.replace(/\.(mp3|wav|ogg|m4a)$/i, ""),
         artist: "Local File",
         src: url,
-        cover: "/default-cover.svg",
+        cover: "./public/Cover.jpg",
       };
     });
     setSongs(arr);

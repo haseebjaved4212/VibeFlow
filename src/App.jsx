@@ -34,8 +34,8 @@ export default function App() {
             </div>
 
             <div className="md:col-span-2">
-              <h1 className="text-2xl font-bold text-white">VibeFlow</h1>
-              <p className="text-sm text-gray-300 mb-4">
+              <h1 className="text-2xl font-bold text-gray-900">VibeFlow</h1>
+              <p className="text-sm text-gray-500 mb-4">
                 Sleek React Music Player 
               </p>
 
@@ -47,15 +47,15 @@ export default function App() {
               />
 
               <div className="mt-6">
-                <p className="text-sm text-gray-400 mb-1">
+                <p className="text-sm text-shadow-green-50  mb-1 bg-red-500/10 backdrop-blur-xl border border-white/20 p-2 rounded">
                   Upload your local songs:
                 </p>
-                <input
+                <input 
                   type="file"
                   accept="audio/*"
                   multiple
                   onChange={(e) => handlers.handleFiles(e.target.files)}
-                  className="text-sm"
+                  className="text-sm bg-white/10 p-2 rounded w-full text-gray-800 cursor-pointer"
                 />
               </div>
             </div>
