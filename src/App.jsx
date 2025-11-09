@@ -13,8 +13,8 @@ export default function App() {
     <div
       className={`min-h-screen flex items-center justify-center p-6 transition-colors duration-500 ${
         theme === "dark"
-          ? "bg-gradient-to-br from-gray-900 via-indigo-900 to-black"
-          : "bg-gradient-to-br from-indigo-200 via-white to-purple-100"
+          ? "bg-linear-to-br from-gray-900 via-indigo-900 to-black"
+          : "bg-linear-to-br from-indigo-200 via-white to-purple-100"
       }`}
     >
       <div className="w-full max-w-3xl">
@@ -36,7 +36,7 @@ export default function App() {
             <div className="md:col-span-2">
               <h1 className="text-2xl font-bold text-white">VibeFlow</h1>
               <p className="text-sm text-gray-300 mb-4">
-                Sleek React Music Player (frontend only)
+                Sleek React Music Player 
               </p>
 
               <PlayerControls
