@@ -78,11 +78,22 @@ The app uses TailwindCSS for styling. You can customize the appearance by:
 
 ## 📱 Responsive Design
 
-VibeFlow is designed to work beautifully on:
+VibeFlow is designed to work beautifully across all devices:
 
-- 📱 Mobile devices
-- 💻 Tablets
-- 🖥️ Desktop screens
+### 📱 Mobile Experience
+
+![Mobile View](src/assets/Mobile.png)
+Perfect for on-the-go music playback with touch-optimized controls.
+
+### 💻 Tablet View
+
+![Tablet View](src/assets/Ipad.png)
+Optimized layout for medium-sized screens with enhanced navigation.
+
+### 🖥️ Desktop Experience
+
+![Desktop View](src/assets/Laptop.png)
+Full-featured music player with expanded controls and library view.
 
 ## 🤝 Contributing
 
