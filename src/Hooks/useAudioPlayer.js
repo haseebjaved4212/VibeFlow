@@ -7,15 +7,15 @@ export default function useAudioPlayer() {
       id: "1",
       title: "Legends Never Die",
       artist: "  By Against The Current",
-      src: "./public/Songs/MySong.mp3",
-      cover: "./public/Images/Cover.jpg",
+      src: "./assets/Songs/MySong.mp3",
+      cover: "./assets/Images/Cover.jpg",
     },
     {
       id: "2",
       title: "Mortal-X-Mortals",
       artist: " By Warriyo",
-      src: "./public/Songs/MySong2.mp3",
-      cover: "./public/Images/Cover2.jpg",
+      src: "./assets/Songs/MySong2.mp3",
+      cover: "./assets/Images/Cover2.jpg",
     },
   ]);
   const [currentIndex, setCurrentIndex] = useState(0);
